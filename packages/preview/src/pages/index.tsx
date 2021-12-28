@@ -9,12 +9,15 @@ export default function HomePage() {
     <Container title={BRAND_TITLE}>
       <Badges />
       <p>
-        Include popular icons in your React projects easily with react-with-native-icons,
-        which utilizes ES6 imports that allows you to include only the icons
-        that your project is using.
+        Include popular icons in your React and React Native projects easily with react-with-native-icons.
       </p>
 
-      <h3>Usage</h3>
+      <h2>Installation</h2>
+
+      {/* <CodeBlock language="bash" code={`https://github.com/Code-From-Anywhere/react-with-native`} /> */}
+      <span>Go to </span><a href="https://github.com/Code-From-Anywhere/react-with-native">react-with-native &#8599;</a>
+
+      <h2>Usage</h2>
       <CodeBlock language="jsx" code={HOME_USAGE} />
 
       <h2>More info</h2>
