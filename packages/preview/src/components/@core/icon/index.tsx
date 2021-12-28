@@ -11,7 +11,7 @@ function Icon({ icon, name, highlightPattern = null }) {
       const svg = ref.current.innerHTML;
       const importIcon = `import Icon from "../assets/icons/${name}.svg"; \n`;
       const importRWN = `import { Svg } from "react-with-native"; \n`;
-      const svgTag = `<Svg src={Icon} className="w-50 h-50" />`;
+      const svgTag = `<Svg src={Icon} className="w-8 h-8" />`;
       const contentToCopy = importIcon + importRWN + svgTag;
       copy(contentToCopy);
 
