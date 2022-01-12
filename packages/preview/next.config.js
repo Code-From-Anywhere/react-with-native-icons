@@ -5,6 +5,7 @@ const path = require("path");
 const prod = process.env.NODE_ENV === "production";
 
 module.exports = withPWA({
+  target: "serverless",
   pwa: {
     disable: !prod,
     dest: "public",
