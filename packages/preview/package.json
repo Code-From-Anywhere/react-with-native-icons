@@ -3,7 +3,7 @@
   "description": "",
   "scripts": {
     "start": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "serve": "next start"
   },
   "keywords": [],
