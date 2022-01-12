@@ -15,14 +15,19 @@ export default function HomePage() {
       <h2>Installation</h2>
 
       {/* <CodeBlock language="bash" code={`https://github.com/Code-From-Anywhere/react-with-native`} /> */}
-      <span>Go to </span><a href="https://github.com/Code-From-Anywhere/react-with-native">react-with-native &#8599;</a>
+      <span>Go to </span>
+      <a href="https://github.com/Code-From-Anywhere/react-with-native">
+        react-with-native &#8599;
+      </a>
 
       <h2>Usage</h2>
       <CodeBlock language="jsx" code={HOME_USAGE} />
 
       <h2>More info</h2>
       <p>
-        <a href="https://github.com/Code-From-Anywhere/react-with-native-icons">GitHub &#8599;</a>
+        <a href="https://github.com/Code-From-Anywhere/react-with-native-icons">
+          GitHub &#8599;
+        </a>
       </p>
     </Container>
   );

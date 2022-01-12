@@ -26,7 +26,7 @@ export default function Sidebar() {
     router.push({ pathname: searchPath, query: query ? { q: query } : null });
     setQueryEveywhere(query);
     setResults(prevResult => {
-      return {}
+      return {};
     });
   };
 
